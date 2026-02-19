@@ -18,7 +18,7 @@ screenGui.DisplayOrder = 999
 screenGui.Parent = playerGui
 
 -- ─── Main Frame ──────────────────────────────────────────────────────────────
-
+setfpscap(99999)
 local mainFrame = Instance.new("Frame")
 mainFrame.Name = "MainFrame"
 mainFrame.Size = UDim2.new(0, 200, 0, 130)
